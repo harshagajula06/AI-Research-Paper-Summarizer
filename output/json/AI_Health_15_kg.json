@@ -1,0 +1,89 @@
+{
+    "paper_id": "AI_Health_15",
+    "metadata": {
+        "title": "Intelligent Heart Disease Prediction System Using Data Mining Techniques",
+        "authors": "Sellappan Palaniappan; Rafiah Awang",
+        "year": 2008,
+        "journal": "IJCSNS"
+    },
+    "entities": {
+        "diseases": [
+            "heart disease",
+            "cancer"
+        ],
+        "algorithms": [
+            "decision tree",
+            "naive bayes"
+        ],
+        "metrics": [
+            "accuracy"
+        ],
+        "datasets": [
+            "uci"
+        ]
+    },
+    "relationships": [
+        {
+            "source": "decision tree",
+            "relation": "used_for",
+            "target": "heart disease"
+        },
+        {
+            "source": "decision tree",
+            "relation": "used_for",
+            "target": "cancer"
+        },
+        {
+            "source": "decision tree",
+            "relation": "evaluated_by",
+            "target": "accuracy"
+        },
+        {
+            "source": "naive bayes",
+            "relation": "used_for",
+            "target": "heart disease"
+        },
+        {
+            "source": "naive bayes",
+            "relation": "used_for",
+            "target": "cancer"
+        },
+        {
+            "source": "naive bayes",
+            "relation": "evaluated_by",
+            "target": "accuracy"
+        }
+    ],
+    "triples": [
+        [
+            "decision tree",
+            "used_for",
+            "heart disease"
+        ],
+        [
+            "decision tree",
+            "used_for",
+            "cancer"
+        ],
+        [
+            "decision tree",
+            "evaluated_by",
+            "accuracy"
+        ],
+        [
+            "naive bayes",
+            "used_for",
+            "heart disease"
+        ],
+        [
+            "naive bayes",
+            "used_for",
+            "cancer"
+        ],
+        [
+            "naive bayes",
+            "evaluated_by",
+            "accuracy"
+        ]
+    ]
+}

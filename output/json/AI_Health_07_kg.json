@@ -1,0 +1,182 @@
+{
+    "paper_id": "AI_Health_07",
+    "metadata": {
+        "title": "Machine Learning and AI in Cancer Prognosis, Prediction, and Treatment Selection: A Critical Approach",
+        "authors": "Bo Zhang; Huiping Shi; Hongtao Wang",
+        "year": 2018,
+        "journal": "Journal of Multidisciplinary Healthcare (DovePress)"
+    },
+    "entities": {
+        "diseases": [
+            "heart disease",
+            "diabetes",
+            "cancer"
+        ],
+        "algorithms": [
+            "random forest",
+            "decision tree",
+            "naive bayes"
+        ],
+        "metrics": [
+            "accuracy",
+            "precision"
+        ],
+        "datasets": [
+            "uci"
+        ]
+    },
+    "relationships": [
+        {
+            "source": "random forest",
+            "relation": "used_for",
+            "target": "heart disease"
+        },
+        {
+            "source": "random forest",
+            "relation": "used_for",
+            "target": "diabetes"
+        },
+        {
+            "source": "random forest",
+            "relation": "used_for",
+            "target": "cancer"
+        },
+        {
+            "source": "random forest",
+            "relation": "evaluated_by",
+            "target": "accuracy"
+        },
+        {
+            "source": "random forest",
+            "relation": "evaluated_by",
+            "target": "precision"
+        },
+        {
+            "source": "decision tree",
+            "relation": "used_for",
+            "target": "heart disease"
+        },
+        {
+            "source": "decision tree",
+            "relation": "used_for",
+            "target": "diabetes"
+        },
+        {
+            "source": "decision tree",
+            "relation": "used_for",
+            "target": "cancer"
+        },
+        {
+            "source": "decision tree",
+            "relation": "evaluated_by",
+            "target": "accuracy"
+        },
+        {
+            "source": "decision tree",
+            "relation": "evaluated_by",
+            "target": "precision"
+        },
+        {
+            "source": "naive bayes",
+            "relation": "used_for",
+            "target": "heart disease"
+        },
+        {
+            "source": "naive bayes",
+            "relation": "used_for",
+            "target": "diabetes"
+        },
+        {
+            "source": "naive bayes",
+            "relation": "used_for",
+            "target": "cancer"
+        },
+        {
+            "source": "naive bayes",
+            "relation": "evaluated_by",
+            "target": "accuracy"
+        },
+        {
+            "source": "naive bayes",
+            "relation": "evaluated_by",
+            "target": "precision"
+        }
+    ],
+    "triples": [
+        [
+            "random forest",
+            "used_for",
+            "heart disease"
+        ],
+        [
+            "random forest",
+            "used_for",
+            "diabetes"
+        ],
+        [
+            "random forest",
+            "used_for",
+            "cancer"
+        ],
+        [
+            "random forest",
+            "evaluated_by",
+            "accuracy"
+        ],
+        [
+            "random forest",
+            "evaluated_by",
+            "precision"
+        ],
+        [
+            "decision tree",
+            "used_for",
+            "heart disease"
+        ],
+        [
+            "decision tree",
+            "used_for",
+            "diabetes"
+        ],
+        [
+            "decision tree",
+            "used_for",
+            "cancer"
+        ],
+        [
+            "decision tree",
+            "evaluated_by",
+            "accuracy"
+        ],
+        [
+            "decision tree",
+            "evaluated_by",
+            "precision"
+        ],
+        [
+            "naive bayes",
+            "used_for",
+            "heart disease"
+        ],
+        [
+            "naive bayes",
+            "used_for",
+            "diabetes"
+        ],
+        [
+            "naive bayes",
+            "used_for",
+            "cancer"
+        ],
+        [
+            "naive bayes",
+            "evaluated_by",
+            "accuracy"
+        ],
+        [
+            "naive bayes",
+            "evaluated_by",
+            "precision"
+        ]
+    ]
+}

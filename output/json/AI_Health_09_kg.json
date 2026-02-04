@@ -1,0 +1,69 @@
+{
+    "paper_id": "AI_Health_09",
+    "metadata": {
+        "title": "AI-Driven Healthcare: Predictive Analytics for Disease Diagnosis and Treatment",
+        "authors": "Sreepathi Ramesh Babu; NBS Vijay Kumar; A. Sri Divya; B. Thanuja",
+        "year": 2024,
+        "journal": "IJMTST"
+    },
+    "entities": {
+        "diseases": [
+            "cancer"
+        ],
+        "algorithms": [
+            "random forest"
+        ],
+        "metrics": [
+            "accuracy",
+            "precision",
+            "recall"
+        ],
+        "datasets": [
+            "uci"
+        ]
+    },
+    "relationships": [
+        {
+            "source": "random forest",
+            "relation": "used_for",
+            "target": "cancer"
+        },
+        {
+            "source": "random forest",
+            "relation": "evaluated_by",
+            "target": "accuracy"
+        },
+        {
+            "source": "random forest",
+            "relation": "evaluated_by",
+            "target": "precision"
+        },
+        {
+            "source": "random forest",
+            "relation": "evaluated_by",
+            "target": "recall"
+        }
+    ],
+    "triples": [
+        [
+            "random forest",
+            "used_for",
+            "cancer"
+        ],
+        [
+            "random forest",
+            "evaluated_by",
+            "accuracy"
+        ],
+        [
+            "random forest",
+            "evaluated_by",
+            "precision"
+        ],
+        [
+            "random forest",
+            "evaluated_by",
+            "recall"
+        ]
+    ]
+}

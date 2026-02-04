@@ -1,0 +1,88 @@
+{
+    "paper_id": "AI_Health_20",
+    "metadata": {
+        "title": "Evaluation of Machine Learning Algorithms for Intrusion Detection System",
+        "authors": "Mohammad Almseidin; Maen Alzubi; Szilveszter Kovacs; Mouhammad Alkassasbeh",
+        "year": 2017,
+        "journal": NaN
+    },
+    "entities": {
+        "diseases": [],
+        "algorithms": [
+            "random forest",
+            "decision tree",
+            "naive bayes"
+        ],
+        "metrics": [
+            "accuracy",
+            "precision"
+        ],
+        "datasets": [
+            "uci"
+        ]
+    },
+    "relationships": [
+        {
+            "source": "random forest",
+            "relation": "evaluated_by",
+            "target": "accuracy"
+        },
+        {
+            "source": "random forest",
+            "relation": "evaluated_by",
+            "target": "precision"
+        },
+        {
+            "source": "decision tree",
+            "relation": "evaluated_by",
+            "target": "accuracy"
+        },
+        {
+            "source": "decision tree",
+            "relation": "evaluated_by",
+            "target": "precision"
+        },
+        {
+            "source": "naive bayes",
+            "relation": "evaluated_by",
+            "target": "accuracy"
+        },
+        {
+            "source": "naive bayes",
+            "relation": "evaluated_by",
+            "target": "precision"
+        }
+    ],
+    "triples": [
+        [
+            "random forest",
+            "evaluated_by",
+            "accuracy"
+        ],
+        [
+            "random forest",
+            "evaluated_by",
+            "precision"
+        ],
+        [
+            "decision tree",
+            "evaluated_by",
+            "accuracy"
+        ],
+        [
+            "decision tree",
+            "evaluated_by",
+            "precision"
+        ],
+        [
+            "naive bayes",
+            "evaluated_by",
+            "accuracy"
+        ],
+        [
+            "naive bayes",
+            "evaluated_by",
+            "precision"
+        ]
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "paper_id": "AI_Health_01",
+    "metadata": {
+        "title": "Trends, Challenges, and Future Directions of Artificial Intelligence in Healthcare: A Review",
+        "authors": "Muhammad Aamir Latif",
+        "year": 2025,
+        "journal": "Biomedical Journal of Scientific & Technical Research"
+    },
+    "entities": {
+        "diseases": [
+            "heart disease",
+            "cancer"
+        ],
+        "algorithms": [],
+        "metrics": [
+            "accuracy",
+            "precision"
+        ],
+        "datasets": [
+            "uci"
+        ]
+    },
+    "relationships": [],
+    "triples": []
+}

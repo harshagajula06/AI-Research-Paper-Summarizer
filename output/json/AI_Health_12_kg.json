@@ -1,0 +1,21 @@
+{
+    "paper_id": "AI_Health_12",
+    "metadata": {
+        "title": "Predictive Analytics and Machine Learning in Healthcare: A Comprehensive Framework for Clinical Implementation",
+        "authors": "Rajendra Prasad Urukadle",
+        "year": 2025,
+        "journal": " IJSCSEIT"
+    },
+    "entities": {
+        "diseases": [],
+        "algorithms": [],
+        "metrics": [
+            "accuracy"
+        ],
+        "datasets": [
+            "uci"
+        ]
+    },
+    "relationships": [],
+    "triples": []
+}

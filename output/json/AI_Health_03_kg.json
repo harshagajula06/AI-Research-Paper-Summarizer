@@ -1,0 +1,90 @@
+{
+    "paper_id": "AI_Health_03",
+    "metadata": {
+        "title": "Machine Learning in Healthcare: A Review",
+        "authors": "Akanksha Saini; A. J. Meitei; Kh. Jitenkumar Singh",
+        "year": 2021,
+        "journal": "4th (ICICC-2021)"
+    },
+    "entities": {
+        "diseases": [
+            "diabetes",
+            "cancer"
+        ],
+        "algorithms": [
+            "random forest",
+            "decision tree"
+        ],
+        "metrics": [
+            "accuracy"
+        ],
+        "datasets": [
+            "kaggle",
+            "uci"
+        ]
+    },
+    "relationships": [
+        {
+            "source": "random forest",
+            "relation": "used_for",
+            "target": "diabetes"
+        },
+        {
+            "source": "random forest",
+            "relation": "used_for",
+            "target": "cancer"
+        },
+        {
+            "source": "random forest",
+            "relation": "evaluated_by",
+            "target": "accuracy"
+        },
+        {
+            "source": "decision tree",
+            "relation": "used_for",
+            "target": "diabetes"
+        },
+        {
+            "source": "decision tree",
+            "relation": "used_for",
+            "target": "cancer"
+        },
+        {
+            "source": "decision tree",
+            "relation": "evaluated_by",
+            "target": "accuracy"
+        }
+    ],
+    "triples": [
+        [
+            "random forest",
+            "used_for",
+            "diabetes"
+        ],
+        [
+            "random forest",
+            "used_for",
+            "cancer"
+        ],
+        [
+            "random forest",
+            "evaluated_by",
+            "accuracy"
+        ],
+        [
+            "decision tree",
+            "used_for",
+            "diabetes"
+        ],
+        [
+            "decision tree",
+            "used_for",
+            "cancer"
+        ],
+        [
+            "decision tree",
+            "evaluated_by",
+            "accuracy"
+        ]
+    ]
+}

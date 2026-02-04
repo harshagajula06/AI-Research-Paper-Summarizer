@@ -1,0 +1,151 @@
+{
+    "paper_id": "AI_Health_16",
+    "metadata": {
+        "title": "Comparative Analysis of Machine Learning Algorithms for Heart Disease Prediction",
+        "authors": "Ruby Hasan",
+        "year": 2021,
+        "journal": "ICACC"
+    },
+    "entities": {
+        "diseases": [
+            "heart disease",
+            "diabetes"
+        ],
+        "algorithms": [
+            "random forest",
+            "decision tree",
+            "knn",
+            "naive bayes"
+        ],
+        "metrics": [
+            "accuracy"
+        ],
+        "datasets": [
+            "uci"
+        ]
+    },
+    "relationships": [
+        {
+            "source": "random forest",
+            "relation": "used_for",
+            "target": "heart disease"
+        },
+        {
+            "source": "random forest",
+            "relation": "used_for",
+            "target": "diabetes"
+        },
+        {
+            "source": "random forest",
+            "relation": "evaluated_by",
+            "target": "accuracy"
+        },
+        {
+            "source": "decision tree",
+            "relation": "used_for",
+            "target": "heart disease"
+        },
+        {
+            "source": "decision tree",
+            "relation": "used_for",
+            "target": "diabetes"
+        },
+        {
+            "source": "decision tree",
+            "relation": "evaluated_by",
+            "target": "accuracy"
+        },
+        {
+            "source": "knn",
+            "relation": "used_for",
+            "target": "heart disease"
+        },
+        {
+            "source": "knn",
+            "relation": "used_for",
+            "target": "diabetes"
+        },
+        {
+            "source": "knn",
+            "relation": "evaluated_by",
+            "target": "accuracy"
+        },
+        {
+            "source": "naive bayes",
+            "relation": "used_for",
+            "target": "heart disease"
+        },
+        {
+            "source": "naive bayes",
+            "relation": "used_for",
+            "target": "diabetes"
+        },
+        {
+            "source": "naive bayes",
+            "relation": "evaluated_by",
+            "target": "accuracy"
+        }
+    ],
+    "triples": [
+        [
+            "random forest",
+            "used_for",
+            "heart disease"
+        ],
+        [
+            "random forest",
+            "used_for",
+            "diabetes"
+        ],
+        [
+            "random forest",
+            "evaluated_by",
+            "accuracy"
+        ],
+        [
+            "decision tree",
+            "used_for",
+            "heart disease"
+        ],
+        [
+            "decision tree",
+            "used_for",
+            "diabetes"
+        ],
+        [
+            "decision tree",
+            "evaluated_by",
+            "accuracy"
+        ],
+        [
+            "knn",
+            "used_for",
+            "heart disease"
+        ],
+        [
+            "knn",
+            "used_for",
+            "diabetes"
+        ],
+        [
+            "knn",
+            "evaluated_by",
+            "accuracy"
+        ],
+        [
+            "naive bayes",
+            "used_for",
+            "heart disease"
+        ],
+        [
+            "naive bayes",
+            "used_for",
+            "diabetes"
+        ],
+        [
+            "naive bayes",
+            "evaluated_by",
+            "accuracy"
+        ]
+    ]
+}

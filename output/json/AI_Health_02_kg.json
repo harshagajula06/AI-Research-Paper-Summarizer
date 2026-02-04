@@ -1,0 +1,67 @@
+{
+    "paper_id": "AI_Health_02",
+    "metadata": {
+        "title": "Explainable AI in Healthcare: To Explain, to Predict, or to Describe?",
+        "authors": "Alex Carriero; Anne de Hond; Bram Cappers; Fernando Paulovich; Sanne Abeln; Karel GM Moons; Maarten van Smeden",
+        "year": 2025,
+        "journal": "arXiv "
+    },
+    "entities": {
+        "diseases": [
+            "diabetes",
+            "cancer"
+        ],
+        "algorithms": [
+            "xgboost",
+            "decision tree"
+        ],
+        "metrics": [],
+        "datasets": [
+            "uci"
+        ]
+    },
+    "relationships": [
+        {
+            "source": "xgboost",
+            "relation": "used_for",
+            "target": "diabetes"
+        },
+        {
+            "source": "xgboost",
+            "relation": "used_for",
+            "target": "cancer"
+        },
+        {
+            "source": "decision tree",
+            "relation": "used_for",
+            "target": "diabetes"
+        },
+        {
+            "source": "decision tree",
+            "relation": "used_for",
+            "target": "cancer"
+        }
+    ],
+    "triples": [
+        [
+            "xgboost",
+            "used_for",
+            "diabetes"
+        ],
+        [
+            "xgboost",
+            "used_for",
+            "cancer"
+        ],
+        [
+            "decision tree",
+            "used_for",
+            "diabetes"
+        ],
+        [
+            "decision tree",
+            "used_for",
+            "cancer"
+        ]
+    ]
+}

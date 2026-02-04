@@ -1,0 +1,182 @@
+{
+    "paper_id": "AI_Health_05",
+    "metadata": {
+        "title": "AI-Driven Predictive Models for Chronic Disease Management",
+        "authors": "Jordan Nelson; Jane Charlotte",
+        "year": 2025,
+        "journal": "NA "
+    },
+    "entities": {
+        "diseases": [
+            "heart disease",
+            "diabetes",
+            "cancer"
+        ],
+        "algorithms": [
+            "random forest",
+            "decision tree",
+            "knn"
+        ],
+        "metrics": [
+            "accuracy",
+            "precision"
+        ],
+        "datasets": [
+            "uci"
+        ]
+    },
+    "relationships": [
+        {
+            "source": "random forest",
+            "relation": "used_for",
+            "target": "heart disease"
+        },
+        {
+            "source": "random forest",
+            "relation": "used_for",
+            "target": "diabetes"
+        },
+        {
+            "source": "random forest",
+            "relation": "used_for",
+            "target": "cancer"
+        },
+        {
+            "source": "random forest",
+            "relation": "evaluated_by",
+            "target": "accuracy"
+        },
+        {
+            "source": "random forest",
+            "relation": "evaluated_by",
+            "target": "precision"
+        },
+        {
+            "source": "decision tree",
+            "relation": "used_for",
+            "target": "heart disease"
+        },
+        {
+            "source": "decision tree",
+            "relation": "used_for",
+            "target": "diabetes"
+        },
+        {
+            "source": "decision tree",
+            "relation": "used_for",
+            "target": "cancer"
+        },
+        {
+            "source": "decision tree",
+            "relation": "evaluated_by",
+            "target": "accuracy"
+        },
+        {
+            "source": "decision tree",
+            "relation": "evaluated_by",
+            "target": "precision"
+        },
+        {
+            "source": "knn",
+            "relation": "used_for",
+            "target": "heart disease"
+        },
+        {
+            "source": "knn",
+            "relation": "used_for",
+            "target": "diabetes"
+        },
+        {
+            "source": "knn",
+            "relation": "used_for",
+            "target": "cancer"
+        },
+        {
+            "source": "knn",
+            "relation": "evaluated_by",
+            "target": "accuracy"
+        },
+        {
+            "source": "knn",
+            "relation": "evaluated_by",
+            "target": "precision"
+        }
+    ],
+    "triples": [
+        [
+            "random forest",
+            "used_for",
+            "heart disease"
+        ],
+        [
+            "random forest",
+            "used_for",
+            "diabetes"
+        ],
+        [
+            "random forest",
+            "used_for",
+            "cancer"
+        ],
+        [
+            "random forest",
+            "evaluated_by",
+            "accuracy"
+        ],
+        [
+            "random forest",
+            "evaluated_by",
+            "precision"
+        ],
+        [
+            "decision tree",
+            "used_for",
+            "heart disease"
+        ],
+        [
+            "decision tree",
+            "used_for",
+            "diabetes"
+        ],
+        [
+            "decision tree",
+            "used_for",
+            "cancer"
+        ],
+        [
+            "decision tree",
+            "evaluated_by",
+            "accuracy"
+        ],
+        [
+            "decision tree",
+            "evaluated_by",
+            "precision"
+        ],
+        [
+            "knn",
+            "used_for",
+            "heart disease"
+        ],
+        [
+            "knn",
+            "used_for",
+            "diabetes"
+        ],
+        [
+            "knn",
+            "used_for",
+            "cancer"
+        ],
+        [
+            "knn",
+            "evaluated_by",
+            "accuracy"
+        ],
+        [
+            "knn",
+            "evaluated_by",
+            "precision"
+        ]
+    ]
+}

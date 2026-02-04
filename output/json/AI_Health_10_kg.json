@@ -1,0 +1,173 @@
+{
+    "paper_id": "AI_Health_10",
+    "metadata": {
+        "title": "Disease Prediction Using Graph Machine Learning Based on Electronic Health Data: A Review of Approaches and Trends",
+        "authors": "Haohui Lu; Shahadat Uddin",
+        "year": 2023,
+        "journal": "Healthcare (MDPI)"
+    },
+    "entities": {
+        "diseases": [
+            "heart disease",
+            "diabetes",
+            "cancer"
+        ],
+        "algorithms": [
+            "decision tree",
+            "knn"
+        ],
+        "metrics": [
+            "accuracy",
+            "precision",
+            "recall",
+            "f1-score"
+        ],
+        "datasets": [
+            "uci"
+        ]
+    },
+    "relationships": [
+        {
+            "source": "decision tree",
+            "relation": "used_for",
+            "target": "heart disease"
+        },
+        {
+            "source": "decision tree",
+            "relation": "used_for",
+            "target": "diabetes"
+        },
+        {
+            "source": "decision tree",
+            "relation": "used_for",
+            "target": "cancer"
+        },
+        {
+            "source": "decision tree",
+            "relation": "evaluated_by",
+            "target": "accuracy"
+        },
+        {
+            "source": "decision tree",
+            "relation": "evaluated_by",
+            "target": "precision"
+        },
+        {
+            "source": "decision tree",
+            "relation": "evaluated_by",
+            "target": "recall"
+        },
+        {
+            "source": "decision tree",
+            "relation": "evaluated_by",
+            "target": "f1-score"
+        },
+        {
+            "source": "knn",
+            "relation": "used_for",
+            "target": "heart disease"
+        },
+        {
+            "source": "knn",
+            "relation": "used_for",
+            "target": "diabetes"
+        },
+        {
+            "source": "knn",
+            "relation": "used_for",
+            "target": "cancer"
+        },
+        {
+            "source": "knn",
+            "relation": "evaluated_by",
+            "target": "accuracy"
+        },
+        {
+            "source": "knn",
+            "relation": "evaluated_by",
+            "target": "precision"
+        },
+        {
+            "source": "knn",
+            "relation": "evaluated_by",
+            "target": "recall"
+        },
+        {
+            "source": "knn",
+            "relation": "evaluated_by",
+            "target": "f1-score"
+        }
+    ],
+    "triples": [
+        [
+            "decision tree",
+            "used_for",
+            "heart disease"
+        ],
+        [
+            "decision tree",
+            "used_for",
+            "diabetes"
+        ],
+        [
+            "decision tree",
+            "used_for",
+            "cancer"
+        ],
+        [
+            "decision tree",
+            "evaluated_by",
+            "accuracy"
+        ],
+        [
+            "decision tree",
+            "evaluated_by",
+            "precision"
+        ],
+        [
+            "decision tree",
+            "evaluated_by",
+            "recall"
+        ],
+        [
+            "decision tree",
+            "evaluated_by",
+            "f1-score"
+        ],
+        [
+            "knn",
+            "used_for",
+            "heart disease"
+        ],
+        [
+            "knn",
+            "used_for",
+            "diabetes"
+        ],
+        [
+            "knn",
+            "used_for",
+            "cancer"
+        ],
+        [
+            "knn",
+            "evaluated_by",
+            "accuracy"
+        ],
+        [
+            "knn",
+            "evaluated_by",
+            "precision"
+        ],
+        [
+            "knn",
+            "evaluated_by",
+            "recall"
+        ],
+        [
+            "knn",
+            "evaluated_by",
+            "f1-score"
+        ]
+    ]
+}

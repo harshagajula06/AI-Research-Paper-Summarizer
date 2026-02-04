@@ -1,0 +1,19 @@
+{
+    "paper_id": "AI_Health_04",
+    "metadata": {
+        "title": "Application of AI in Healthcare: A Survey",
+        "authors": "Sakshi Bhagat; Vaibhavi Gulhane; Prof. Mohit K. Popat",
+        "year": 2022,
+        "journal": " IJARSCT"
+    },
+    "entities": {
+        "diseases": [
+            "cancer"
+        ],
+        "algorithms": [],
+        "metrics": [],
+        "datasets": []
+    },
+    "relationships": [],
+    "triples": []
+}

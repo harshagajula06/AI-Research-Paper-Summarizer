@@ -1,0 +1,151 @@
+{
+    "paper_id": "AI_Health_19",
+    "metadata": {
+        "title": "Cardiovascular Disease Prediction Using Machine Learning Algorithms",
+        "authors": "Kalapraveen Bagadi; Visalakshi Annepu; Adnan Naji Jameel Al-Tamimi; Naga Raju Challa; H. S. S. Aljibori; M. N. Mohammed; Oday I. Abdullah; Rabab Alayham Abbas Helmi; M. Alfirass",
+        "year": 2023,
+        "journal": "IEEE "
+    },
+    "entities": {
+        "diseases": [
+            "heart disease"
+        ],
+        "algorithms": [
+            "xgboost",
+            "random forest",
+            "decision tree",
+            "naive bayes"
+        ],
+        "metrics": [
+            "accuracy",
+            "recall"
+        ],
+        "datasets": [
+            "uci"
+        ]
+    },
+    "relationships": [
+        {
+            "source": "xgboost",
+            "relation": "used_for",
+            "target": "heart disease"
+        },
+        {
+            "source": "xgboost",
+            "relation": "evaluated_by",
+            "target": "accuracy"
+        },
+        {
+            "source": "xgboost",
+            "relation": "evaluated_by",
+            "target": "recall"
+        },
+        {
+            "source": "random forest",
+            "relation": "used_for",
+            "target": "heart disease"
+        },
+        {
+            "source": "random forest",
+            "relation": "evaluated_by",
+            "target": "accuracy"
+        },
+        {
+            "source": "random forest",
+            "relation": "evaluated_by",
+            "target": "recall"
+        },
+        {
+            "source": "decision tree",
+            "relation": "used_for",
+            "target": "heart disease"
+        },
+        {
+            "source": "decision tree",
+            "relation": "evaluated_by",
+            "target": "accuracy"
+        },
+        {
+            "source": "decision tree",
+            "relation": "evaluated_by",
+            "target": "recall"
+        },
+        {
+            "source": "naive bayes",
+            "relation": "used_for",
+            "target": "heart disease"
+        },
+        {
+            "source": "naive bayes",
+            "relation": "evaluated_by",
+            "target": "accuracy"
+        },
+        {
+            "source": "naive bayes",
+            "relation": "evaluated_by",
+            "target": "recall"
+        }
+    ],
+    "triples": [
+        [
+            "xgboost",
+            "used_for",
+            "heart disease"
+        ],
+        [
+            "xgboost",
+            "evaluated_by",
+            "accuracy"
+        ],
+        [
+            "xgboost",
+            "evaluated_by",
+            "recall"
+        ],
+        [
+            "random forest",
+            "used_for",
+            "heart disease"
+        ],
+        [
+            "random forest",
+            "evaluated_by",
+            "accuracy"
+        ],
+        [
+            "random forest",
+            "evaluated_by",
+            "recall"
+        ],
+        [
+            "decision tree",
+            "used_for",
+            "heart disease"
+        ],
+        [
+            "decision tree",
+            "evaluated_by",
+            "accuracy"
+        ],
+        [
+            "decision tree",
+            "evaluated_by",
+            "recall"
+        ],
+        [
+            "naive bayes",
+            "used_for",
+            "heart disease"
+        ],
+        [
+            "naive bayes",
+            "evaluated_by",
+            "accuracy"
+        ],
+        [
+            "naive bayes",
+            "evaluated_by",
+            "recall"
+        ]
+    ]
+}
